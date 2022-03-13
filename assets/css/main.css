@@ -3,7 +3,6 @@
 }
 
 html,
-body,
 * {
   margin: 0;
   padding: 0;
@@ -46,4 +45,10 @@ body,
   transform: scale(110%);
   transition: cubic-bezier(0.215, 0.61, 0.355, 1) ease-in-out;
   background-color: burlywood;
+}
+
+.music {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
